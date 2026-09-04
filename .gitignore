@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python dependencies & Venv
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Databases & local files
+*.db
+*.sqlite3
+vector_db_store/
+uploads/
+
+# IDE / OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environments
+.env
